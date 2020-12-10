@@ -1,0 +1,50 @@
+.menu {   
+    font-size: 15px;
+    padding: 20px;
+}
+
+.menu2{
+    color: red;
+    text-decoration: none;
+    position: relative;
+}
+
+.ssylka{
+    color: #445500;
+    text-decoration: none;
+    position: relative;
+    transition: color .2s linear;
+}
+
+.textpicture{
+    position: relative;
+}
+
+.textPicture input{
+    font-size: 20px;
+}
+
+.textPicture button{
+    font-size: 20px;
+}
+
+.table_user {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.table_user input{
+    font-size: 20px;
+    text-align: center;
+    float: left;
+}
+
+.table_user button{
+    color: black;
+}
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+    border-color: black;
+}

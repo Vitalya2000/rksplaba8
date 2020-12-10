@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Praktika8</title>
+    <link rel="stylesheet" href="/css/style_table.css"/>
+    <script type="text/javascript" src="jss_table3.js"></script>
+</head>
+<body bgcolor="#9F710D">    
+    <div class="menu">
+	<span class="menu2"><b>Меню</b></span><br>
+        <a class="ssylka" href="/index2">Общая информация</a><br>
+        <a class="ssylka" href="/task">Индивидуальное задание</a><br>
+        <a class="ssylka" href="/table">Таблица</a>
+    </div>
+    <div align="center">Введите данные для таблицы</div>
+    <div align="center" class="textPicture">
+        
+        <input type="text" placeholder="Модель" size="19" maxlength="11" id="mod"/>
+        
+        <input type="text" placeholder="Цвет" size="19" maxlength="11" id="col"/>
+        
+        
+        <button type="button" onClick="javascript: addROW ()">Записать</button>
+        <button type="button" onClick="javascript: deleteROW ()">Удалить</button>
+    </div>
+   <h2 align="center">Автомобили</h2>
+   <div class="table_user">    
+    <table id="tbl" cellspacing="0" cellpadding="0" border>
+        <tr>
+            <td><input name="Модель" id= "columnmodel" ></td>
+            <td><input name="Цвет" id="columncolor"></td>
+        </tr>
+    </table>
+    </div>
+<p align="center" id="result"></p>
+</body>
+</html>

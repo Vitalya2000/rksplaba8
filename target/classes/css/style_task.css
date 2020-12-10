@@ -1,0 +1,41 @@
+.menu {   
+    font-size: 15px;
+    padding: 20px;
+}
+
+.menu2{
+    color: red;
+    text-decoration: none;
+    position: relative;
+}
+
+.ssylka{
+    color: #445500;
+    text-decoration: none;
+    position: relative;
+    transition: color .2s linear;
+}
+
+
+.textPicture{
+    margin: auto;
+    padding: 100px;
+}
+
+.textPicture input{
+    font-size: 20px;
+}
+
+.textPicture button{
+    font-size: 20px;
+    margin: auto;
+}
+
+.textPicture a{
+    font-size: 20px;
+}
+
+.textPicture b{
+    font-size: 20px;
+}
+

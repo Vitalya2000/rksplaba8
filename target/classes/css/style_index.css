@@ -1,0 +1,24 @@
+.menu {   
+    font-size: 15px;
+    padding: 20px;
+}
+
+.menu2{
+    color: red;
+    text-decoration: none;
+    position: relative;
+}
+
+.ssylka{
+    color: #445500;
+    text-decoration: none;
+    position: relative;
+    transition: color .2s linear;
+}
+
+
+
+    
+    
+
+

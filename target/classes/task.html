@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style_task.css"/>
+    <title>Praktika8</title>
+    <script type="text/javascript" src="jss_indzad2.js"></script>
+</head>
+<body bgcolor="#78AD9E">    
+    <div class="menu">
+	<span class="menu2"><b>Меню</b></span><br>
+        <a class="ssylka" href="/index2">Общая информация</a><br>
+        <a class="ssylka" href="/task">Индивидуальное задание</a><br>
+        <a class="ssylka" href="/table">Таблица</a>
+    </div>
+    <h2>Работа с индивидуальным заданием</h2>
+Нужно ввести строку с символами, разделяя их знаком ",".<br>
+После чего нужно нажать на кнопку "Обработать", где произойдет разделение первоначальной строки на три новые.
+    <div class="textPicture">
+        <form>
+            <p><input type="text" name="in_system" placeholder="Введите исходную строку" size="22" maxlength="20" id="in" style="text-align: center; "/></p>
+            <button type="button" onClick="reqReadyStateChange();">Обработать</button>
+	    <p align="center" id="result"></p>
+        </form>
+    </div>
+</body>
+</html>
